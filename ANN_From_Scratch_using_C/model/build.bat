@@ -1,16 +1,21 @@
 @echo off
-cd src
-gcc main.c -o main -std=c11
-if %errorlevel% neq 0 (
-    echo "Compilation failed!"
-    pause
-    exit /b
+
+rem Set the output executable name
+set OUTPUT=main
+
+rem Compile the source files
+gcc -o %OUTPUT% src\main.c src\math_functions.c -I include -std=c11
+
+rem Check for compilation errors
+if %ERRORLEVEL% neq 0 (
+    echo "Error during compilation!"
+    exit /b %ERRORLEVEL%
 )
-echo "Running the program..."
-main.exe
+
+echo "Compilation successful!"
+
+rem Run the compiled executable
+%OUTPUT%
 
 pause
-
-
-
 
