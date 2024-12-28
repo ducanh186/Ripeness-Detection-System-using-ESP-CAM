@@ -14,10 +14,15 @@ The following is the confusion matrix for the classification model:
 
 ---
 
-## Team Members
-- **[Your Name]**: Role and contribution
-- **[Member 2's Name]**: Role and contribution
-- **[Member 3's Name]**: Role and contribution
+## Team Members and Contributions
+Our project team consists of three members, each contributing to different aspects of the system:
+
+- **[Le Duc Anh *](https://github.com/ducanh186)**: Developed the basic idea of the project, optimized the AI model, and implemented the final ESP code.
+- **[Chu Thien Phu](https://github.com/chuphu2004)**: Trained the AI model and improved its performance through optimization techniques.
+- **[Dang Cong Hoang Nam](https://github.com/HOANGNAM1807)**: Deployed the system on the ESP, ensuring smooth integration and functionality.
+
+We worked collaboratively to build this system from scratch, leveraging each member's unique skill set to achieve the project goals.
+
 
 ---
 
