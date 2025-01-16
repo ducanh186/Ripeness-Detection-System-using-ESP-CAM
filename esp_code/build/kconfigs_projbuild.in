@@ -1,0 +1,5 @@
+source "C:/esp/Espressif/frameworks/esp-idf-v4.2.3/components/app_update/Kconfig.projbuild"
+source "C:/esp/Espressif/frameworks/esp-idf-v4.2.3/components/bootloader/Kconfig.projbuild"
+source "C:/esp/Espressif/frameworks/esp-idf-v4.2.3/components/esptool_py/Kconfig.projbuild"
+source "C:/esp/Espressif/frameworks/esp-idf-v4.2.3/components/partition_table/Kconfig.projbuild"
+source "C:/AI/Ripeness-Detection-System-using-ESP-CAM/esp_code/main/Kconfig.projbuild"
